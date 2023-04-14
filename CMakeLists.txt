@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.9.1)
+project(Teatro)
+set(CMAKE_CXX_STANDARD 14)
+include_directories(include)
+file(GLOB SOURCES "src/*.c")
+add_executable(teatro ${SOURCES})
